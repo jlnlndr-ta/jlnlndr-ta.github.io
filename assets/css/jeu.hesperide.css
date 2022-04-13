@@ -323,3 +323,8 @@ br {
 .mod_footer>:only-child {
   margin: unset !important;
 }
+
+
+.template_submodule .winners_btn {
+  display:none !important;
+}
