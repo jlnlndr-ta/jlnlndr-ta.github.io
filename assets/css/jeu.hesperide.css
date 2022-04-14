@@ -62,6 +62,10 @@ br {
   font-family:"EymenPro-Light" !important; 
 }
 
+.awesome .hb_secondaryFont a {
+  color: #d35a17;
+}
+
 .eymenpro span {
   display: block;
 }
