@@ -202,6 +202,9 @@ br {
   display: flex;
   column-gap: 30px;
   margin-bottom: 30px;
+  width: 100%;
+  flex-basis: 100%;
+  flex-wrap: wrap;
 }
 
 .ambiances-container .row-3 > div {
