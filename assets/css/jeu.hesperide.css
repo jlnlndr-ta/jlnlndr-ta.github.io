@@ -57,7 +57,8 @@ br {
 .eymenpro, 
 .eymenpro span,
 .flex_button a,
-.enter a {
+.enter a,
+.awesome .hb_secondaryFont a {
   font-family:"EymenPro-Light" !important; 
 }
 
