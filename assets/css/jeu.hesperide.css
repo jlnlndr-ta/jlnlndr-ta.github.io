@@ -241,7 +241,8 @@ br {
 }
 
 /* background-color masqué en js sur la page form */
-#ep-contents.formadd_page {
+#ep-contents.formadd_page,
+#ep-contents.promoview_page	 {
   background-image:url(../img/TERREBATTUE_16_9.png) !important;
   background-position: center;
   background-size: cover;
