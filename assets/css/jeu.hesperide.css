@@ -227,6 +227,7 @@ br {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+  align-items: center;
 }
 
 .texte-lots-container > div {
