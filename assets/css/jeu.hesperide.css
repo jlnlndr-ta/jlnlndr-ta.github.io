@@ -154,6 +154,10 @@ br {
   line-height: 32px;
 }
 
+.info_flexwrap .small_actions_flex {
+  position: relative;
+}
+
 .ambiances-container {
   /* display: flex;
   column-gap: 30px;
@@ -163,6 +167,8 @@ br {
   left: 50%;
   position: relative;
   transform: translateX(-50%);
+  position: absolute;
+  top: 0;
 }
 
 @media  (max-width: 1000px) { 
