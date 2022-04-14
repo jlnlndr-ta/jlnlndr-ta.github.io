@@ -285,6 +285,7 @@ br {
 
 .awesome .gui_form label {
   font-family:"EymenPro-Light" !important; 
+  color: #ddd3ca !important;
 }
 
 .gui_form .file input, .gui_form_owner .file input, .gui_form_owner div.text input, .gui_form div.text input {
@@ -318,7 +319,7 @@ br {
 
 #botosubmit {
   background-color: #d35918 !important;
-  color: #fff;
+  color: #fff !important;
 }
 
 .prize_img img {
