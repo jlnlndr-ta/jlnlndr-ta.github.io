@@ -283,22 +283,24 @@ br {
   background-size: cover;
 }
 
+.awesome .gui_form label {
+  font-family:"EymenPro-Light" !important; 
+}
 
 .gui_form .file input, .gui_form_owner .file input, .gui_form_owner div.text input, .gui_form div.text input {
   height: 46px !important;
-  background-color: #f7f8f4 !important;
-  border:2px solid rgba(0,0,0, 0.1) !important;
+  background-color: #ddd3ca !important;
+  /* border:2px solid rgba(0,0,0, 0.1) !important; */
   border-radius: 4px !important;
   /* si fond image */
   color: #000 !important;
 }
 
-
 .ep_form .input input, .ep_form .input select, .ep_form .input textarea {
   /* si fond image */
   color: #000 !important;
-  background-color: #f7f8f4 !important;
-  border:2px solid rgba(0,0,0, 0.1) !important;
+  background-color: #ddd3ca !important;
+  /* border:2px solid rgba(0,0,0, 0.1) !important; */
 }
 
 #overLimitMin.redColor,
@@ -312,6 +314,11 @@ br {
 
 #UserPhone {
   margin-block-end: var(--grid-1)!important;
+}
+
+#botosubmit {
+  background-color: #d35918 !important;
+  color: #fff;
 }
 
 .prize_img img {
