@@ -221,6 +221,10 @@ br {
   background: red;
 }
 
+.fittext-dynamic {
+  white-space: nowrap;
+}
+
 /* background-color masqué en js sur la page form */
 #ep-contents.formadd_page {
   background-image:url(../img/TERREBATTUE_16_9.png) !important;
