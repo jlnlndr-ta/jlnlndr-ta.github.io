@@ -224,7 +224,7 @@ br {
 } 
 
 .ambiances-container .row-5 > div {
-  flex: 0 1 calc(20% - 30px);
+  flex: 0 1 calc(25% - 30px);
 } 
 
 .ambiances-container div > img {
