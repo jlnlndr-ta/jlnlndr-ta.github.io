@@ -62,7 +62,7 @@ br {
   font-family:"EymenPro-Light" !important; 
 }
 
-#ep_main_container.awesome .hb_secondaryFont a {
+#ep_main_container.awesome .hb_secondaryFont a.enter_btn {
   color: #d35a17 !important;
 }
 
