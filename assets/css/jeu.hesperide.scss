@@ -175,6 +175,12 @@ br {
   transform: translateX(-50%);
   display: flex;
   flex-direction: column;
+  font-family:"EymenPro-Light";
+  text-align: center;
+}
+
+.ambiances-container span {
+  color: #d35a17 !important;
 }
 
 @media  (max-width: 1000px) { 
