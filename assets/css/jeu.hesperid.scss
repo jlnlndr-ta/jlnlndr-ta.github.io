@@ -259,23 +259,22 @@ br {
 }
 
 .texte-lots-container .first-child:after {
-  content: '';
-  width: 1px;
-  height: 70%;
+  content: '&';
+  width: 20px;
+  height: 20px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #fff;
+  /* background-color: #fff; */
   display: block;
   right: 0;
+  color: #fff;
+  font-size: 120px;
 }
 
 .fittext-dynamic {
   white-space: nowrap;
 }
-
-/* background-color masqué en js sur la page form */
-/* #ep-contents.formadd_page, */
 
 #ep-contents.formadd_page {
   background-color: #fff !important;
@@ -425,8 +424,3 @@ br {
 .mod_footer>:only-child {
   margin: unset !important;
 }
-
-/* 
-.template_submodule .winners_btn {
-  display:none !important;
-} */

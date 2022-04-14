@@ -1,50 +1,48 @@
 @font-face {
-  font-family:"BelovedSans";
-  src:url("../fonts/Sans.woff2") format("woff2"),url("../fonts/Beloved Sans.woff") format("woff"),url("../fonts/Beloved Sans.otf") format("opentype");
-  font-style:normal;
-  font-weight:400;
+  font-family: "BelovedSans";
+  src: url("../fonts/Sans.woff2") format("woff2"), url("../fonts/Beloved Sans.woff") format("woff"), url("../fonts/Beloved Sans.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
   font-display: swap;
-
 }
 
 @font-face {
-  font-family:"EymenPro-Light";
-  src:url("../fonts/EymenPro-Light.woff2") format("woff2"),url("../fonts/EymenPro-Light.woff") format("woff"),url("../fonts/EymenPro-Light.otf") format("opentype");
-  font-style:normal;
-  font-weight:400;
+  font-family: "EymenPro-Light";
+  src: url("../fonts/EymenPro-Light.woff2") format("woff2"), url("../fonts/EymenPro-Light.woff") format("woff"), url("../fonts/EymenPro-Light.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
   font-display: swap;
-
 }
 
 @font-face {
-  font-family:"BelovedScript";
-  src:url("../fonts/Beloved Script.woff2") format("woff2"),url("../fonts/Beloved Script.woff") format("woff"),url("../fonts/Beloved Script.otf") format("opentype");
-  font-style:normal;
-  font-weight:400;
+  font-family: "BelovedScript";
+  src: url("../fonts/Beloved Script.woff2") format("woff2"), url("../fonts/Beloved Script.woff") format("woff"), url("../fonts/Beloved Script.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
   font-display: swap;
 }
-      
+
 .share_on_social a,
 #user_participation_info_container a {
-  color:#000 !important;
+  color: #000 !important;
 }
 
 .gui_prize_shares .share_on_social a {
-  color:#fff !important;
+  color: #fff !important;
 }
 
 #header_image img,
 .main_img_promo img,
 #final_image img {
-  margin-bottom:20px !important;
+  margin-bottom: 20px !important;
   max-width: 220px;
 }
 
-@media  (max-width: 768px) { 
+@media (max-width: 768px) {
   #header_image img,
   .main_img_promo img,
   #final_image img {
-    margin-bottom:20px !important;
+    margin-bottom: 20px !important;
     max-width: 220px;
   }
 }
@@ -54,12 +52,12 @@ br {
   padding: 0 !important;
 }
 
-.eymenpro, 
+.eymenpro,
 .eymenpro span,
 .flex_button a,
 .enter a,
 .awesome .hb_secondaryFont a {
-  font-family:"EymenPro-Light" !important; 
+  font-family: "EymenPro-Light" !important;
 }
 
 #ep_main_container.awesome .hb_secondaryFont a.enter_btn {
@@ -70,20 +68,18 @@ br {
   display: block;
 }
 
-@media  (max-width: 768px) { 
-
+@media (max-width: 768px) {
   .eymenpro span {
     display: inline-block;
   }
-  
 }
 
-.belovedsans { 
-  font-family:"BelovedSans" !important;
+.belovedsans {
+  font-family: "BelovedSans" !important;
 }
 
 .belovedscript {
-  font-family:"BelovedScript" !important;
+  font-family: "BelovedScript" !important;
 }
 
 .uppercase {
@@ -110,14 +106,13 @@ br {
   line-height: 32px;
 }
 
-
 .prize_content {
   padding: 60px 0;
   width: 50vw;
   margin: 0 auto;
 }
 
-@media  (max-width: 768px) { 
+@media (max-width: 768px) {
   .prize_content {
     padding: 60px 0;
     width: 90vw;
@@ -125,34 +120,33 @@ br {
   }
 }
 
-#winner_content .prize_winner_content.this_contents.is_cl .prize_content :not(.gui_text_align_end,.gui_text_align_center) {
+#winner_content .prize_winner_content.this_contents.is_cl .prize_content :not(.gui_text_align_end, .gui_text_align_center) {
   text-align: center !important;
   color: #fff !important;
 }
 
-#ep-global-contents.wt_bg #user_participation_info_container .flex_contents :not(a,.redColor,.whiteColor) {
+#ep-global-contents.wt_bg #user_participation_info_container .flex_contents :not(a, .redColor, .whiteColor) {
   color: #fff !important;
 }
 
-.prize_winner_content.this_contents.is_cl .gui_iconed_list_v:before, 
-.prize_winner_content.this_contents.is_cl .prize_content :not(.gui_text_align_end,.gui_text_align_center) {
+.prize_winner_content.this_contents.is_cl .gui_iconed_list_v:before,
+.prize_winner_content.this_contents.is_cl .prize_content :not(.gui_text_align_end, .gui_text_align_center) {
   text-align: center !important;
   color: #fff !important;
 }
 
 .prize_winner_content.this_contents.is_cl .prize_content .flex_contents {
-    text-align: center !important;
+  text-align: center !important;
 }
 
 .prize_content .prize_title {
   text-align: center !important;
-  font-family:"EymenPro-Light" !important; 
+  font-family: "EymenPro-Light" !important;
 }
 
 .prize_content .prize_title span {
   text-align: center !important;
   color: #fff !important;
-
 }
 
 .prize_title strong {
@@ -172,67 +166,72 @@ br {
   width: 1000px;
   left: calc(50% - -15px);
   position: relative;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   position: absolute;
   top: 0;
 }
 
-@media  (max-width: 1000px) { 
-
+@media (max-width: 1000px) {
   .ambiances-container {
-
     width: auto;
     left: unset;
-    transform: unset;
-
+    -webkit-transform: unset;
+            transform: unset;
   }
-
- 
-
 }
 
-@media  (max-width: 768px) { 
+@media (max-width: 768px) {
   .ambiances-container {
     width: 80%;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: 0 auto;
   }
-
   .ambiances-container > div {
     margin-bottom: 30px;
   }
 }
 
-
 /* .ambiances-container > div {
   flex: 0 0 33.333%;
 
 } */
-
 .ambiances-container .row-3,
 .ambiances-container .row-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  column-gap: 30px;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
   margin-bottom: 30px;
   width: 100%;
-  flex-basis: 100%;
-  flex-wrap: wrap;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .ambiances-container .row-3 > div {
-  flex: 0 1 calc(33.333% - 30px);
-} 
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 calc(33.333% - 30px);
+          flex: 0 1 calc(33.333% - 30px);
+}
 
 .ambiances-container .row-5 > div {
-  flex: 0 1 calc(25% - 30px);
-} 
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 calc(25% - 30px);
+          flex: 0 1 calc(25% - 30px);
+}
 
 .ambiances-container div:not(.claim) > img {
   width: 100%;
 }
 
 .ambiances-container div.claim {
-  padding:0 0 40px;
+  padding: 0 0 40px;
 }
 
 .promotion_title {
@@ -240,18 +239,31 @@ br {
 }
 
 .texte-lots-container {
-  flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 60px 0;
 }
 
 .texte-lots-container > div {
-  flex: 1 0 50%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
 }
 
 .texte-lots-container .first-child {
@@ -259,42 +271,42 @@ br {
 }
 
 .texte-lots-container .first-child:after {
-  content: '';
-  width: 1px;
-  height: 70%;
+  content: '&';
+  width: 20px;
+  height: 20px;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
-  background-color: #fff;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  /* background-color: #fff; */
   display: block;
   right: 0;
+  color: #fff;
+  font-size: 120px;
 }
 
 .fittext-dynamic {
   white-space: nowrap;
 }
 
-/* background-color masqué en js sur la page form */
-/* #ep-contents.formadd_page, */
-
 #ep-contents.formadd_page {
   background-color: #fff !important;
 }
 
-#ep-contents.promoview_page	 {
-  background-image:url(../img/TERREBATTUE_16_9.png) !important;
+#ep-contents.promoview_page {
+  background-image: url(../img/TERREBATTUE_16_9.png) !important;
   background-position: center;
   background-size: cover;
 }
 
 .awesome .gui_form label,
 .awesome .gui_form .hb_secondaryFont label a {
-  font-family:"EymenPro-Light" !important; 
+  font-family: "EymenPro-Light" !important;
   color: #877e77 !important;
 }
 
 .field_UserComment span {
-  font-family:"BelovedScript" !important;
+  font-family: "BelovedScript" !important;
   display: block;
 }
 
@@ -328,7 +340,8 @@ br {
 }
 
 #UserPhone {
-  margin-block-end: var(--grid-1)!important;
+  -webkit-margin-after: var(--grid-1) !important;
+          margin-block-end: var(--grid-1) !important;
 }
 
 #divbotosubmit #botosubmit {
@@ -350,7 +363,7 @@ br {
 }
 
 .winner_layer {
-    max-width: unset;
+  max-width: unset;
 }
 
 .won_prize .this_contents {
@@ -362,7 +375,7 @@ br {
 }
 
 #ep-global-contents #winner_content {
-  background-image:url(../img/Claim_FondHerbe.jpg) !important;
+  background-image: url(../img/Claim_FondHerbe.jpg) !important;
   color: #fff !important;
   text-align: center !important;
 }
@@ -382,17 +395,23 @@ br {
 }
 
 .prize_item span {
-  font-family:"BelovedScript" !important;
+  font-family: "BelovedScript" !important;
 }
 
 .gui_prize_shares {
-  flex: 0 0 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
   width: 100%;
 }
 
 .gui_prize_shares .share_on_social {
-  align-items: center;
-  justify-content: center !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
   margin: 0 20px;
   padding: 20px !important;
 }
@@ -410,7 +429,7 @@ br {
 
 #ep-global-contents.wt_bg .footer_flexwrap {
   background: unset !important;
-  border:none !important;
+  border: none !important;
   min-height: unset !important;
 }
 
@@ -422,11 +441,7 @@ br {
   padding: 0 0 20px;
 }
 
-.mod_footer>:only-child {
+.mod_footer > :only-child {
   margin: unset !important;
 }
-
-/* 
-.template_submodule .winners_btn {
-  display:none !important;
-} */
+/*# sourceMappingURL=jeu.hesperid.css.map */
