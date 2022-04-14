@@ -407,6 +407,7 @@ br {
 
 .mod_footer>:only-child {
   margin: unset !important;
+  padding: 0 0 20px;
 }
 
 /* 
