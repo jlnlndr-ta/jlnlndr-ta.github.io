@@ -227,7 +227,7 @@ br {
   flex: 0 1 calc(25% - 30px);
 } 
 
-.ambiances-container div > img {
+.ambiances-container div:not(.claim) > img {
   width: 100%;
 }
 
