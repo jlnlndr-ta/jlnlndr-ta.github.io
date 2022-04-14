@@ -214,11 +214,11 @@ br {
 }
 
 .ambiances-container .row-3 > div {
-  flex: 0 0 33.333%;
+  flex: 0 1 calc(33.333% - 30px);
 } 
 
 .ambiances-container .row-5 > div {
-  flex: 0 0 25%;
+  flex: 0 1 calc(25% - 30px);
 } 
 
 .ambiances-container div > img {
