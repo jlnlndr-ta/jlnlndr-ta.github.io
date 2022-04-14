@@ -155,9 +155,9 @@ br {
 }
 
 .ambiances-container {
-  display: flex;
+  /* display: flex;
   column-gap: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 30px; */
   width: 100%;
   width: 1000px;
   left: 50%;
@@ -196,6 +196,13 @@ br {
   flex: 0 0 33.333%;
 
 } */
+
+.ambiances-container .row-3,
+.ambiances-container .row-5 {
+  display: flex;
+  column-gap: 30px;
+  margin-bottom: 30px;
+}
 
 .ambiances-container .row-3 > div {
   flex: 0 0 33.333%;
