@@ -283,9 +283,10 @@ br {
   background-size: cover;
 }
 
-.awesome .gui_form label {
+.awesome .gui_form label,
+.awesome .gui_form .hb_secondaryFont label a {
   font-family:"EymenPro-Light" !important; 
-  color: #ddd3ca !important;
+  color: #877e77 !important;
 }
 
 .gui_form .file input, .gui_form_owner .file input, .gui_form_owner div.text input, .gui_form div.text input {
@@ -317,7 +318,7 @@ br {
   margin-block-end: var(--grid-1)!important;
 }
 
-#botosubmit {
+#divbotosubmit #botosubmit {
   background-color: #d35918 !important;
   color: #fff !important;
 }
