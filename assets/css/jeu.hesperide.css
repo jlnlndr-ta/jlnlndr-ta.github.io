@@ -24,7 +24,6 @@
   font-display: swap;
 }
       
-
 .share_on_social a,
 #user_participation_info_container a {
   color:#000 !important;
@@ -56,7 +55,8 @@ br {
 }
 
 .eymenpro, 
-.eymenpro span {
+.eymenpro span,
+.flex_button a {
   font-family:"EymenPro-Light" !important; 
 }
 
