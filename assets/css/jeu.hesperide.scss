@@ -260,14 +260,13 @@ br {
 
 .texte-lots-container .first-child:after {
   content: '&';
-  width: 20px;
-  height: 20px;
+  width: auto;
+  height: auto;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
-  /* background-color: #fff; */
+  transform: translate(-50%, -50%);
   display: block;
-  right: 0;
+  left: 100%;
   color: #fff;
   font-size: 120px;
   font-family: "EymenPro-Light" !important;
