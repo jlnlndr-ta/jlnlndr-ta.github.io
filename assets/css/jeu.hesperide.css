@@ -237,6 +237,15 @@ br {
   flex: 1 0 50%;
 }
 
+.texte-lots-container div:first-child:after {
+  content:'';
+  width: 1px;
+  height: 50%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .fittext-dynamic {
   white-space: nowrap;
 }
