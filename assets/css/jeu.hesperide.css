@@ -418,9 +418,12 @@ br {
   color: #fff !important;
 }
 
+.mod_footer {
+  padding: 0 0 20px;
+}
+
 .mod_footer>:only-child {
   margin: unset !important;
-  padding: 0 0 20px;
 }
 
 /* 
