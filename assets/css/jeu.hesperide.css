@@ -207,10 +207,12 @@ br {
 
 .texte-lots-container {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .texte-lots-container > div {
-  flex: 1 1 50%;
+  flex: 1 0 50%;
 }
 
 /* background-color masqué en js sur la page form */
