@@ -173,8 +173,8 @@ br {
   left: calc(50% - -15px);
   position: relative;
   transform: translateX(-50%);
-  position: absolute;
-  top: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 @media  (max-width: 1000px) { 
@@ -280,7 +280,7 @@ br {
   background-color: #fff !important;
 }
 
-#ep-contents.promoview_page	 {
+#ep-contents.promoview_page .template_display	 {
   background-image:url(../img/TERREBATTUE_16_9.png) !important;
   background-position: center;
   background-size: cover;
@@ -304,17 +304,13 @@ br {
 .gui_form .file input, .gui_form_owner .file input, .gui_form_owner div.text input, .gui_form div.text input {
   height: 46px !important;
   background-color: #ddd3ca !important;
-  /* border:2px solid rgba(0,0,0, 0.1) !important; */
   border-radius: 4px !important;
-  /* si fond image */
   color: #000 !important;
 }
 
 .ep_form .input input, .ep_form .input select, .ep_form .input textarea {
-  /* si fond image */
   color: #000 !important;
   background-color: #ddd3ca !important;
-  /* border:2px solid rgba(0,0,0, 0.1) !important; */
 }
 
 #overLimitMin.redColor,
