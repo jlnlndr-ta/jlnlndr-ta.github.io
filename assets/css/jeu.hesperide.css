@@ -56,7 +56,8 @@ br {
 
 .eymenpro, 
 .eymenpro span,
-.flex_button a {
+.flex_button a,
+.enter a {
   font-family:"EymenPro-Light" !important; 
 }
 
@@ -241,6 +242,10 @@ br {
 
 .texte-lots-container > div {
   flex: 1 0 50%;
+}
+
+.texte-lots-container .first-child {
+  position: relative;
 }
 
 .texte-lots-container .first-child:after {
