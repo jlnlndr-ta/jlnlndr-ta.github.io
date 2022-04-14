@@ -238,6 +238,7 @@ br {
   justify-content: center;
   width: 100%;
   align-items: center;
+  padding: 60px 0;
 }
 
 .texte-lots-container > div {
