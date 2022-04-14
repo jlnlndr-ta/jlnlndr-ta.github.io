@@ -94,6 +94,11 @@ br {
   line-height: 44px;
 }
 
+.font-85 {
+  font-size: 85px;
+  line-height: 85px;
+}
+
 .bigger {
   font-size: 32px;
   line-height: 32px;
@@ -198,6 +203,14 @@ br {
 
 .promotion_title {
   display: none;
+}
+
+.texte-lots-container {
+  display: flex;
+}
+
+.texte-lots-container > div {
+  flex: 1 1 50%;
 }
 
 /* background-color masqué en js sur la page form */
