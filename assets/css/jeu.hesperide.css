@@ -232,8 +232,6 @@ br {
 
 .texte-lots-container > div {
   flex: 1 0 50%;
-  overflow: hidden;
-  background: red;
 }
 
 .fittext-dynamic {
