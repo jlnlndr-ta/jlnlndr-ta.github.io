@@ -63,7 +63,7 @@ br {
 }
 
 .awesome .hb_secondaryFont a {
-  color: #d35a17;
+  color: #d35a17 !important;
 }
 
 .eymenpro span {
@@ -170,7 +170,7 @@ br {
   margin-bottom: 30px; */
   width: 100%;
   width: 1000px;
-  left: 50%;
+  left: calc(50% - -15px);
   position: relative;
   transform: translateX(-50%);
   position: absolute;
@@ -231,6 +231,10 @@ br {
   width: 100%;
 }
 
+.ambiances-container div.claim {
+  padding:0 0 40px;
+}
+
 .promotion_title {
   display: none;
 }
@@ -287,6 +291,15 @@ br {
 .awesome .gui_form .hb_secondaryFont label a {
   font-family:"EymenPro-Light" !important; 
   color: #877e77 !important;
+}
+
+.field_UserComment span {
+  font-family:"BelovedScript" !important;
+  display: block;
+}
+
+.field_UserComment {
+  font-size: bigger;
 }
 
 .gui_form .file input, .gui_form_owner .file input, .gui_form_owner div.text input, .gui_form div.text input {
