@@ -606,3 +606,13 @@ br {
 }
 
 
+.main_final_actions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#user_participation_info_container {
+  max-width: 400px;
+}
