@@ -67,7 +67,6 @@ br {
 }
 
 #ep-global-contents #ep-contents #ep_main_container.awesome .hb_secondaryFont a.enter_btn,
-#ep-global-contents #ep-contents #ep_main_container.awesome .solid_buttons .flex_button a,
 #ep-global-contents #ep-contents #ep_main_container.awesome .promo_data .solid_buttons .flex_button a:not(.original_color_item) {
   color: #d35a17 !important;
 }
@@ -389,7 +388,7 @@ br {
   color: #877e77 !important;
 }
 
-.field_UserComment span {
+.awesome .hb_secondaryFont .field_UserComment span {
   font-family:"BelovedScript" !important;
   display: block;
 }
