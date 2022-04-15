@@ -551,8 +551,8 @@ br {
 
 .field_UserToc a,
 .field_UserPolicy a,
-.ep_form .checkbox label:before,
-.ep_form .checkbox label:before, .ep_form .radio label:before {
+#ep-contents.formadd_page .ep_form .checkbox label:before,
+#ep-contents.formadd_page .ep_form .radio label:before {
   color:#877e77 !important;
 }
 
