@@ -389,6 +389,13 @@ br {
   background-size: cover;
 }
 
+#ep-contents.success_page	.template_display {
+  background-image:url(../img/Claim_FondHerbe.jpg) !important;
+  background-position: center;
+  background-size: cover;
+}
+
+
 .awesome .gui_form label,
 .awesome .gui_form .hb_secondaryFont label a {
   font-family:"EymenPro-Light" !important; 
@@ -495,11 +502,11 @@ br {
   max-height: 100%;
 }
 
-#ep-global-contents #winner_content {
-  background-image:url(../img/Claim_FondHerbe.jpg) !important;
-  color: #fff !important;
-  text-align: center !important;
-}
+// #ep-global-contents #winner_content {
+//   background-image:url(../img/Claim_FondHerbe.jpg) !important;
+//   color: #fff !important;
+//   text-align: center !important;
+// }
 
 #user_participation_info_container.user_participations_info li,
 #user_participation_info_container.user_participations_info .won_prizes_textual_list {
