@@ -431,6 +431,10 @@ br {
   color: #000 !important;
 }
 
+.input .radio label {
+  text-transform: uppercase;
+}
+
 .ep_form .input input, .ep_form .input select, .ep_form .input textarea {
   color: #000 !important;
   background-color: #ddd3ca !important;
