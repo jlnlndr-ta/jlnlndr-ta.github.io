@@ -287,6 +287,7 @@ br {
   margin:0 auto;
   display: block;
   width: 100%;
+  text-align: center;
 }
 
 .promotion_title {
@@ -409,6 +410,10 @@ br {
   font-family:"EymenPro-Light" !important; 
   text-transform: uppercase !important;
   font-size: 2rem;
+}
+
+.awesome .field_UserComment label {
+  line-height: 2.6em;
 }
 
 .awesome .field_UserComment .hb_secondaryFont:not(.not_uppercase) {
