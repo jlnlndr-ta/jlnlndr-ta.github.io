@@ -399,7 +399,13 @@ br {
 
 .awesome .field_UserComment .hb_secondaryFont span.belovedscript {
   display: block;
+  font-family:"BelovedSans" !important;
 }
+
+.awesome .field_UserComment .hb_secondaryFont span.eymenpro {
+  font-family:"EymenPro-Light" !important; 
+}
+
 
 .awesome .field_UserComment .hb_secondaryFont:not(.not_uppercase) {
   text-transform: unset !important;
@@ -529,7 +535,6 @@ br {
 .mod_footer>:only-child {
   margin: unset !important;
 }
-
 
 .field_UserToc a,
 .field_UserPolicy a {
