@@ -489,6 +489,7 @@ br {
 .prize_img img {
   height: auto;
   aspect-ratio: 1/1;
+  max-width: 330px;
 }
 
 .prize_img {
@@ -504,7 +505,7 @@ br {
 }
 
 .won_prize .this_contents {
-  // width: 100vw;
+   width: 80%;
   // max-width: unset;
   // min-height: unset;
   // height: 100vh;
@@ -562,7 +563,6 @@ br {
 #winner_content .short_description {
   font-size: 24px;
   line-height: 32px;
-  text-shadow: 1px 1px 2px black;
 }
 
 #ep-global-contents.wt_bg .footer_flexwrap {
