@@ -66,12 +66,11 @@ br {
   font-family:"EymenPro-Light" !important; 
 }
 
-#ep-global-contents #ep-contents #ep_main_container.awesome .hb_secondaryFont a.enter_btn,
-#ep-global-contents #ep-contents #ep_main_container.awesome .promo_data .solid_buttons .flex_button a:not(.original_color_item) {
+ #ep-global-contents #ep-contents.promoview_page #ep_main_container.awesome .promo_data .solid_buttons .flex_button a:not(.original_color_item) {
   color: #d35a17 !important;
 }
 
-#ep-global-contents #ep-contents #ep_main_container.awesome .solid_buttons .flex_button a:not(.original_color_item) {
+#ep-global-contents #ep-contents.formadd_page #ep_main_container.awesome .solid_buttons .flex_button a:not(.original_color_item) {
   color: #fff !important;
 }
 
@@ -394,7 +393,6 @@ br {
 
 .awesome .field_UserComment .hb_secondaryFont span {
   font-family:"BelovedScript" !important;
-  
   display: block;
 }
 
