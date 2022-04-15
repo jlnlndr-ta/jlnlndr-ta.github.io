@@ -111,6 +111,12 @@ br {
   line-height: 85px;
 }
 
+@media  (max-width: 768px) { 
+  .font-85 {
+    font-size: 4rem;
+  }
+}
+
 .bigger {
   font-size: 32px;
   line-height: 32px;
