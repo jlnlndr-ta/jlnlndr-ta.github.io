@@ -75,8 +75,6 @@ br {
   font-family:"EymenPro-Light" !important; 
 }
 
-
-
  #ep-global-contents #ep-contents.promoview_page #ep_main_container.awesome .solid_buttons .flex_button a:not(.original_color_item) {
   color: #d35a17 !important;
 }
@@ -156,7 +154,7 @@ br {
 }
 
 #ep-global-contents.wt_bg #user_participation_info_container .flex_contents :not(a,.redColor,.whiteColor) {
-  color: #fff !important;
+  color: #d35a17 !important;
 }
 
 .prize_winner_content.this_contents.is_cl .gui_iconed_list_v:before, 
@@ -638,4 +636,9 @@ br {
 
 #user_participation_info_container {
   max-width: 400px; 
+}
+
+.template_awesome #ep-contents .gui_close_overlayer:before, 
+.wt_bg #ep-contents .gui_close_overlayer:before {
+  color:#d35a17 !important;
 }
