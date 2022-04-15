@@ -546,8 +546,10 @@ br {
 }
 
 .field_UserToc a,
-.field_UserPolicy a {
-  color:#877e77;
+.field_UserPolicy a,
+.ep_form .checkbox label:before,
+.ep_form .checkbox label:before, .ep_form .radio label:before {
+  color:#877e77 !important;
 }
 
 .checkbox>input {
