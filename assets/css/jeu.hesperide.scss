@@ -392,9 +392,12 @@ br {
 }
 
 .awesome .field_UserComment .hb_secondaryFont span {
-  display: block;
   color: #877e77 !important;
   text-transform: inherit !important;
+}
+
+.awesome .field_UserComment .hb_secondaryFont span.belovedscript {
+  display: block;
 }
 
 .awesome .field_UserComment .hb_secondaryFont:not(.not_uppercase) {
