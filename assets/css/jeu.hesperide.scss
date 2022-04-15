@@ -393,7 +393,7 @@ br {
   background-size: cover;
 }
 
-#ep-contents.success_page	.template_display {
+#ep-contents.success_page {
   background-image:url(../img/Claim_FondHerbe.jpg) !important;
   background-position: center;
   background-size: cover;
@@ -579,9 +579,10 @@ br {
   margin: unset !important;
 }
 
-#ep-contents.success_page .mod_footer {
-  visibility: hidden;
-}
+// #ep-contents.success_page .mod_footer {
+//   visibility: hidden;
+//   display: none !important;
+// }
 
 .field_UserToc a,
 .field_UserPolicy a,
