@@ -199,19 +199,19 @@ br {
   font-family:"EymenPro-Light" !important;
 }
 
-@media  (max-width: 1000px) { 
+// @media  (max-width: 1000px) { 
 
-  .ambiances-container {
+//   .ambiances-container {
 
-    width: auto;
-    left: unset;
-    transform: unset;
+//     width: auto;
+//     left: unset;
+//     transform: unset;
 
-  }
+//   }
 
  
 
-}
+// }
 
 @media  (max-width: 768px) { 
   .ambiances-container {
@@ -239,6 +239,7 @@ br {
   width: 100%;
   flex-basis: 100%;
   flex-wrap: wrap;
+  justify-content:center;
 }
 
 .ambiances-container .row-3 > div {
@@ -302,6 +303,13 @@ br {
   color: #fff;
   font-size: 120px;
   font-family: "EymenPro-Light" !important;
+}
+
+@media  (max-width: 980px) { 
+  .texte-lots-container .first-child:after {
+    font-size: 60px;
+    top: 50%;
+  }
 }
 
 .fittext-dynamic {
