@@ -356,7 +356,7 @@ br {
 
   .texte-lots-container .first-child {
     padding: 0 0 60px;
-    margin: 0 0 20px;
+    margin: 0 0 35px;
   }
 
   .texte-lots-container .first-child:after {
@@ -503,6 +503,7 @@ br {
   background: unset !important;
   border:none !important;
   min-height: unset !important;
+  display: block !important;
 }
 
 // #ep-global-contents.wt_bg .footer_flexwrap * {
