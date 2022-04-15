@@ -505,12 +505,17 @@ br {
 }
 
 .won_prize .this_contents {
-   width: 80%;
+   width: 100vw;
   // max-width: unset;
   // min-height: unset;
   // height: 100vh;
   // max-height: 100%;
   border-radius: 10px;
+}
+
+.won_prize .this_contents {
+    width: unset !important;
+    max-width: unset !important;
 }
 
 // #ep-global-contents #winner_content {
