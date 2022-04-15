@@ -399,13 +399,13 @@ br {
 
 .awesome .field_UserComment .hb_secondaryFont span.belovedscript {
   display: block;
-  font-family:"BelovedSans" !important;
+  font-family:"BelovedScript" !important;
 }
 
 .awesome .field_UserComment .hb_secondaryFont span.eymenpro {
   font-family:"EymenPro-Light" !important; 
+  text-transform: uppercase;
 }
-
 
 .awesome .field_UserComment .hb_secondaryFont:not(.not_uppercase) {
   text-transform: unset !important;
