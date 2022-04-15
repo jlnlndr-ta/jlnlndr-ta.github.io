@@ -517,3 +517,13 @@ br {
 .mod_footer>:only-child {
   margin: unset !important;
 }
+
+
+.field_UserToc a,
+.field_UserPolicy a {
+  color:#877e77;
+}
+
+.checkbox>input {
+  border:1px solid #877e77;
+}
