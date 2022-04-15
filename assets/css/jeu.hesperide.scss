@@ -266,6 +266,14 @@ br {
   padding: 60px 0;
 }
 
+@media  (min-width: 1281px) { 
+
+  .texte-lots-container {
+    max-width: 1280px;
+  }
+   
+}
+
 .texte-lots-container > div {
   flex: 1 0 50%;
 }
