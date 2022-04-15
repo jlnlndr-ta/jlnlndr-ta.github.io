@@ -70,9 +70,12 @@ br {
   font-family:"EymenPro-Light" !important; 
 }
 
-#ep-contents.success_page .user_participations_info li {
+#ep-contents.success_page .user_participations_info li,
+#ep-contents.success_page .awesome .user_participations_info li * {
   font-family:"EymenPro-Light" !important; 
 }
+
+
 
  #ep-global-contents #ep-contents.promoview_page #ep_main_container.awesome .solid_buttons .flex_button a:not(.original_color_item) {
   color: #d35a17 !important;
