@@ -617,12 +617,11 @@ br {
   column-gap: 40px;
 }
 
-.main_final_actions li a {
+#ep-contents #ep_main_container.awesome .main_final_actions .flex_button a:not(.original_color_item) {
   background-color: #d35a17 !important;
   color: #fff !important;
 }
 
-
 #user_participation_info_container {
-  max-width: 400px;
+  max-width: 400px; 
 }
