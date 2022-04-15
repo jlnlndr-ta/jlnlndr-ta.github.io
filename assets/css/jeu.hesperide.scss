@@ -453,6 +453,10 @@ br {
   background-color: #fff;
 }
 
+#overLimitMin:not(.redColor) {
+  color: #877e77 !important;
+}
+
 #divbotosubmit {
   margin-bottom: 60px;
 }
