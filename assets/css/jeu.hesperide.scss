@@ -538,3 +538,13 @@ br {
 .checkbox>input {
   border:1px solid #877e77;
 }
+
+.popin-form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: red;
+  z-index: 9999;
+}
