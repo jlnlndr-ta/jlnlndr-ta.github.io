@@ -605,13 +605,19 @@ br {
   display: none;
 }
 
-
 .main_final_actions {
   display: flex;
-  flex-direction: row;
+  flex-direction: row !important;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center !important;
+  column-gap: 40px;
 }
+
+.main_final_actions li a {
+  background-color: #d35a17 !important;
+  color: #fff !important;
+}
+
 
 #user_participation_info_container {
   max-width: 400px;
