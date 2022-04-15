@@ -399,18 +399,16 @@ br {
   text-transform: inherit !important;
 }
 
-.awesome .field_UserComment {
-  font-size: 3rem;
-}
-
 .awesome .field_UserComment .hb_secondaryFont span.belovedscript {
   display: block;
   font-family:"BelovedScript" !important;
+  font-size: 3rem;
 }
 
 .awesome .field_UserComment .hb_secondaryFont span.eymenpro {
   font-family:"EymenPro-Light" !important; 
   text-transform: uppercase !important;
+  font-size: 2rem;
 }
 
 .awesome .field_UserComment .hb_secondaryFont:not(.not_uppercase) {
