@@ -38,10 +38,14 @@ body {
 }
 
 #header_image img,
-.main_img_promo img,
-#final_image img {
+.main_img_promo img {
   margin-bottom:20px !important;
   max-width: 220px;
+}
+
+#final_image img {
+  margin-bottom:20px !important;
+  max-width: 400px;
 }
 
 @media  (max-width: 768px) { 
