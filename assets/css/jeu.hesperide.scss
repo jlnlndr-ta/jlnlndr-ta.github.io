@@ -546,7 +546,14 @@ br {
 // }
 
 .mod_footer {
-  padding: 0 0 20px;
+  padding: 0 0 40px;
+  position: relative;
+}
+
+.footer_flexwrap .powered_by_flex {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
 }
 
 .mod_footer>:only-child {
