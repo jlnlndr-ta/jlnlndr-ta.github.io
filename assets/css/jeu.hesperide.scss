@@ -536,9 +536,16 @@ br {
 //   text-align: center !important;
 // }
 
-#user_participation_info_container .prizes_won .user_participations_info {
+#user_participation_info_container .prizes_won .user_participations_info,
+#user_participation_info_container .is_participations_user,
+#user_participation_info_container .is_connected_user {
   background-color: #fff !important;
   max-width: 400px;
+}
+
+#user_participation_info_container .is_participations_user,
+#user_participation_info_container .is_connected_user {
+  margin: 0 auto;
 }
 
 #user_participation_info_container.user_participations_info li,
