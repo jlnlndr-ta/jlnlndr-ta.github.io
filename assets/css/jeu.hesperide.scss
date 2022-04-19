@@ -541,11 +541,17 @@ br {
 #user_participation_info_container .is_connected_user {
   background-color: #fff !important;
   max-width: 400px;
+  width: 100%;
 }
 
 #user_participation_info_container .is_participations_user,
 #user_participation_info_container .is_connected_user {
   margin: 0 auto;
+  padding: 0;
+}
+
+#user_participation_info_container .prizes_won .user_participations_info .knk-winners.hb_mainFontWeightRoman {
+  padding: 0;
 }
 
 #user_participation_info_container.user_participations_info li,
