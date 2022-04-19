@@ -559,7 +559,7 @@ br {
 #user_participation_info_container.user_participations_info .won_prizes_textual_list {
   text-align: center !important;
 }
-#user_participation_info_container,
+.awesome #user_participation_info_container *,
 #user_participation_info_container.user_participations_info .won_prizes_textual_list {
   font-family:"EymenPro-Light" !important; 
 }
