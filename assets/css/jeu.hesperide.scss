@@ -517,7 +517,7 @@ br {
 
 @media  (max-width: 768px) { 
   .won_prize .this_contents {
-    max-height: 80vh;
+    max-height: 80vh !important;
     max-width: unset !important;
     width: 100% !important;
   }
