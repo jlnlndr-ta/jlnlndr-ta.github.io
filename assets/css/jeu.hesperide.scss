@@ -208,7 +208,7 @@ br {
   text-align: center;
 }
 
-.ambiances-container span {
+.ambiances-container > span {
   color: #000 !important;
   font-family:"EymenPro-Light" !important;
   margin: 60px 0 40px;
@@ -217,9 +217,17 @@ br {
   width: 100%;
 }
 
+.ambiances-container > span > span {
+  display: inline-block;
+}
+
 @media  (max-width: 768px) { 
   .ambiances-container span.des-produits {
     margin: 0 0 40px;
+  }
+
+  .ambiances-container > span > span {
+    display: block;
   }
 }
 
