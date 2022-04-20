@@ -450,6 +450,12 @@ br {
   display: block;
   font-family: "EymenPro-Light" !important;
   color: #877e77 !important;
+  margin: 20px 0 0;
+}
+
+.field_UserComment .phrase span {
+  font-family: "EymenPro-Light" !important;
+  line-height: 1.7em;
 }
 
 .gui_form .file input, .gui_form_owner .file input, .gui_form_owner div.text input, .gui_form div.text input {
