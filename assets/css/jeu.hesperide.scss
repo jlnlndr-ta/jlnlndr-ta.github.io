@@ -131,6 +131,12 @@ br {
   }
 }
 
+@media  (max-width: 320px) { 
+  .font-85 {
+    font-size: 3rem;
+  }
+}
+
 .bigger {
   font-size: 32px;
   line-height: 32px;
@@ -498,7 +504,7 @@ br {
 #divbotosubmit #botosubmit {
   background-color: #d35918 !important;
   color: #fff !important;
-  padding-to:1em ;
+  padding-top:1em;
 }
 
 .prize_img img {
@@ -703,4 +709,14 @@ br {
 
 .promo_bg {
   display: none !important;
+}
+
+@media  (max-width: 768px) { 
+  .ep_global_contents:not(#gui_modal_root_public_entries):not(.is_builder) {
+    min-height: unset !important;
+  }
+.template_contents .template_display {
+  height: unset !important;
+}
+
 }
