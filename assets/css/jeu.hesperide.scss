@@ -24,8 +24,9 @@
   font-display: swap;
 }
 
-body {
-  background: white;
+body,
+html.is_mobile>body {
+  background: white !important;
 }
       
 .share_on_social a,
