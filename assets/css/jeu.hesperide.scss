@@ -643,7 +643,14 @@ br {
 .footer_flexwrap .powered_by_flex {
   position: absolute;
   bottom: 20px;
-  left: 20;
+  left: 20px;
+}
+
+@media  (max-width: 768px) { 
+  .footer_flexwrap .powered_by_flex {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 .footer_flexwrap .powered_by_flex a {
