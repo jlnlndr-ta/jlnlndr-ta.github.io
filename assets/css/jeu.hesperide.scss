@@ -267,8 +267,6 @@ br {
   justify-content:center;
 }
 
-
-
 .ambiances-container .row-3 > div {
   flex: 0 1 calc(33.333% - 30px);
 } 
@@ -446,6 +444,12 @@ br {
 
 .field_UserComment {
   font-size: bigger;
+}
+
+.field_UserComment .phrase {
+  display: block;
+  font-family: "EymenPro-Light" !important;
+  color: #877e77 !important;
 }
 
 .gui_form .file input, .gui_form_owner .file input, .gui_form_owner div.text input, .gui_form div.text input {
