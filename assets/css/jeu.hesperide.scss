@@ -623,7 +623,11 @@ br {
 .footer_flexwrap .powered_by_flex {
   position: absolute;
   bottom: 20px;
-  left: 0;
+  left: 20;
+}
+
+.footer_flexwrap .powered_by_flex a {
+  text-decoration: underline;
 }
 
 .mod_footer>:only-child {
