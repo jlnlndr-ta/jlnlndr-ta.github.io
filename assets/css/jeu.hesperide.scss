@@ -216,6 +216,12 @@ br {
   width: 100%;
 }
 
+@media  (max-width: 768px) { 
+  .ambiances-container span.des-produits {
+    margin: 40px 0 40px;
+  }
+}
+
 .awesome .hb_secondaryFont .ambiances-container,
 .awesome .hb_secondaryFont .ambiances-container span {
   font-family:"EymenPro-Light" !important;
