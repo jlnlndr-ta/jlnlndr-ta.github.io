@@ -670,6 +670,10 @@ margin:0 auto 20px;
 .footer_flexwrap .powered_by_flex a {
   text-decoration: underline;
 }
+#ep-contents.success_page .footer_flexwrap .powered_by_flex a,
+#ep-contents.already_page .footer_flexwrap .powered_by_flex a {
+  color: #fff !important;
+}
 
 .mod_footer>:only-child {
   margin: unset !important;
