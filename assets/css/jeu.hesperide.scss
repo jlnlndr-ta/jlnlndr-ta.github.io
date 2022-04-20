@@ -306,6 +306,15 @@ br {
   text-align: center;
 }
 
+@media  (max-width: 768px) { 
+  .ambiances-container div.claim,
+.claim {
+  
+  margin:0 auto 0;
+ 
+}
+}
+
 .promotion_title {
   display: none;
 }
