@@ -771,3 +771,25 @@ margin:0 auto 20px;
 .ty-qui-aura {
   font-size: 20.5px; line-height:1.2em;
 }
+
+@media  (max-width: 768px) { 
+  .ty-merci {
+    font-size:70px; line-height: 1em;
+  }
+  
+  .ty-votre-participation {
+    font-size: 33px; line-height:1.2em;
+  }
+  
+  .ty-a-bien {
+    font-size: 21.5px; line-height:1.2em;
+  }
+  
+  .ty-la-deliberation {
+    font-size: 28px; line-height:1.2em;
+  }
+  
+  .ty-qui-aura {
+    font-size: 18px; line-height:1.2em;
+  }  
+}
