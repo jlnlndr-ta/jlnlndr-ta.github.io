@@ -37,12 +37,14 @@ body {
   color:#fff !important;
 }
 
-#header_image img,
-.main_img_promo img {
-  margin-bottom:20px !important;
-  max-width: 280px;
+#header_image,
+.main_img_promo,
+#final_image{
+ margin-top: calc(90px - 16px);
 }
 
+#header_image img,
+.main_img_promo img,
 #final_image img {
   margin-bottom:20px !important;
   max-width: 280px;
