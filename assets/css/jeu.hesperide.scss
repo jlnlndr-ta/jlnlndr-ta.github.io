@@ -174,6 +174,7 @@ br {
 .prize_content .prize_title {
   text-align: center !important;
   font-family:"EymenPro-Light" !important; 
+  padding: 0 !important;
 }
 
 .prize_content .prize_title span {
@@ -523,8 +524,14 @@ margin:0 auto 20px;
   max-width: 330px;
 }
 
+@media  (max-width: 768px) { 
+  .prize_img img {
+    max-width: 50%;
+  }
+}
+
 .prize_img {
-  margin: 40px 0;
+  margin: 40px 0 !important;
 }
 
 .won_prize {
@@ -549,7 +556,7 @@ margin:0 auto 20px;
 
 @media  (max-width: 768px) { 
   .won_prize .this_contents {
-    max-height: 55vh !important;
+    max-height: 75vh !important;
     max-width: unset !important;
     height: 100vh !important;
     width: 100% !important;
@@ -732,8 +739,7 @@ margin:0 auto 20px;
   .ep_global_contents:not(#gui_modal_root_public_entries):not(.is_builder) {
     min-height: unset !important;
   }
-.template_contents .template_display {
-  height: unset !important;
-}
-
+  .template_contents .template_display {
+    height: unset !important;
+  }
 }
